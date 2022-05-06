@@ -14,16 +14,34 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="50" />
             <RowDefinition Height="*" />
-            <RowDefinition Height="20" />
+            <RowDefinition Height="15" />
         </Grid.RowDefinitions>
-
+        
+        <!--[Center panel with traсks]
+        Then put it in separate frame-->
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="250"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+
+            <!--[Left column]-->
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                </Grid.RowDefinitions>
+            </Grid>
+            
+            
         </Grid>
         
+        <!--[App name]-->
         <Grid Grid.Row="2">
             <TextBlock HorizontalAlignment="Center"
                        VerticalAlignment="Center"
@@ -31,7 +49,6 @@
                        FontFamily="Lucida Console"
                        FontWeight="Bold"
                        Text="SHILIFY" />
-            
         </Grid>
     </Grid>
 </Window>
