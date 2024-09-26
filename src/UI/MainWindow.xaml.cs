@@ -1,4 +1,4 @@
-﻿namespace Shilify.Windows;
+﻿namespace Shilify.UI;
 
 public partial class MainWindow : Window
 {
